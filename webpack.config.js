@@ -44,7 +44,7 @@ module.exports = {
       name: "leftNavigation",
       filename: "remoteEntry.js",
       remotes: {
-        Shell: "shell@http://localhost:3004/remoteEntry.js"
+        Shell: "shell@https://cleanui0011.github.io/mf-shell/remoteEntry.js"
       },
       exposes: {
         "./LeftNav": "./src/App.js"
