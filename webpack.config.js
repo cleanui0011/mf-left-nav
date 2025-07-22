@@ -9,8 +9,9 @@ module.exports = {
   entry: "./src/index.js",
   mode: "development",
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "main.js",
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js',
+    publicPath: 'https://cleanui0011.github.io/mf-left-nav/',
   },
   devServer: {
     port: 3001,
